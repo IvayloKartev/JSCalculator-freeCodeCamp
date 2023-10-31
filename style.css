@@ -1,0 +1,105 @@
+body{
+    margin: 0; 
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.calculator{
+    width: 325px;
+    height: 400px;
+    background-color: #000000;
+    overflow: hidden;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c2c2d6;
+}
+#ex-screen{
+    height: 7.5px;
+}
+#num-screen{
+    height: 10px;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 76px 76px 76px 76px;
+    grid-template-rows: 61px 61px 61px 61px 61px;
+    grid-row-gap: 0;
+    column-gap: 0;
+    font-family:monospace;
+    color: white;
+    font-size: 1rem;
+}
+.num-button{
+    width: 75px;
+    height: 60px;
+    background-color: #4d4d4d;
+    margin:0;
+}
+.sign-button{
+    width: 75px;
+    height: 60px;
+    background-color: #666666;
+    margin:0;
+}
+#AC{
+    width: 150.5px;
+    height: 60px;
+    background-color: #ac3939;
+    grid-column: 1/ span 2;
+    margin:0;
+}
+#zero{
+    width: 150.5px;
+    height: 60px;
+    background-color: #4d4d4d;
+    grid-column: 1 / span 2;
+}
+#equal{
+    width: 75px;
+    height: 65px;
+    background-color: #004466;
+}
+.equals{
+    margin-top:60px;
+    width: 75px;
+    height: 117px;
+    background-color: #004466;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons div:not(div[class="equals"]){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons button{
+    border:none;
+}
+.buttons-wrapper{
+    position: relative;
+    bottom: -10px;
+    width: 325px;
+    height: 325px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@font-face {
+    font-family: "Digital";
+    src: url("../JSCalculator/Fonts/digital_7/digital-7.ttf");
+}
+#num-screen {
+    color: white;
+    font-family: "Digital";
+    text-align: right;
+    width: 300px;
+    font-size: 30px;
+    margin:10px;
+}
