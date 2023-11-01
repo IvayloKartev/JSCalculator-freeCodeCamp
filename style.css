@@ -65,7 +65,7 @@ main{
     height: 65px;
     background-color: #004466;
 }
-.equals{
+#equals{
     margin-top:60px;
     width: 75px;
     height: 117px;
@@ -93,7 +93,7 @@ main{
 }
 @font-face {
     font-family: "Digital";
-    src: url("../JSCalculator/Fonts/digital-7.ttf");
+    src: url("../JSCalculator/Fonts/digital_7/digital-7.ttf");
 }
 #num-screen {
     color: white;
@@ -101,5 +101,13 @@ main{
     text-align: right;
     width: 300px;
     font-size: 30px;
-    margin:10px;
+    margin:15px;
+}
+#ex-screen{
+    color: #ffa500;
+    font-family: "Digital";
+    text-align: right;
+    width: 300px;
+    font-size: 20px;
+    margin: 15px;
 }
