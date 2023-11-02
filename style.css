@@ -47,7 +47,7 @@ main{
     background-color: #666666;
     margin:0;
 }
-#AC{
+#clear{
     width: 150.5px;
     height: 60px;
     background-color: #ac3939;
@@ -95,7 +95,7 @@ main{
     font-family: "Digital";
     src: url("../JSCalculator/Fonts/digital_7/digital-7.ttf");
 }
-#num-screen {
+#display {
     color: white;
     font-family: "Digital";
     text-align: right;
