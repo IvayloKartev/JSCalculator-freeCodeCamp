@@ -123,7 +123,7 @@ document.addEventListener("DOMContentLoaded", function() {
     div.addEventListener("click", function(){
         clickPlus("/");
     });
-    const eqaul = document.getElementById("equals");
+    const equal = document.getElementById("equals");
     function Equal(){
         console.log("clicked!");
         if(sign==="+"){
@@ -151,5 +151,5 @@ document.addEventListener("DOMContentLoaded", function() {
             console.log(firstNumber);
         }
     }
-    eqaul.addEventListener("click", Equal());
+    equal.addEventListener("click", Equal);
 })
