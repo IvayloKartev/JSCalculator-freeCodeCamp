@@ -93,19 +93,20 @@ main{
 }
 @font-face {
     font-family: "Digital";
-    src: url("../JSCalculator/Fonts/digital_7/digital-7.ttf");
+    src: url("./Fonts/digital_7/digital-7.ttf");
 }
 #display {
     color: white;
-    font-family: "Digital";
+    font-family: "Digital", "Digital-7 V7";
     text-align: right;
     width: 300px;
     font-size: 30px;
     margin:15px;
+    margin-bottom: -5px;
 }
 #ex-screen{
     color: #ffa500;
-    font-family: "Digital";
+    font-family: "Digital", "Digital-7 V7";
     text-align: right;
     width: 300px;
     font-size: 20px;
